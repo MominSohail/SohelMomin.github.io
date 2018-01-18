@@ -1,0 +1,151 @@
+html,body{
+	height: 100%;
+	overflow-x: hidden;
+}
+body
+{
+
+	background:url(bodybgimg.jpg) ; no-repeat center center fixed #000;
+  font-family: Lato;
+	/*background-color: #121111;*/
+	position: relative;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow-x: hidden;
+
+
+}
+
+form
+{
+	margin-top: 20px;
+}
+
+
+#contactHeader
+{
+	font-family: 'Chewy', cursive;
+	font-size: 60px;
+	color: white;
+	margin-bottom: 0px;
+	margin-top: 2%;
+}
+
+#belowHeader
+{
+
+
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-top: 0px;
+}
+#hapCus
+{
+	color:#e07e2c;
+}
+
+.form-group
+{
+	margin-right: 10px;
+}
+.topElem
+{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+#centerElem
+{
+
+}
+
+#form-submit
+{
+	background-color: #e07e2c;
+	font-family: 'Chewy', cursive;
+	color: white;
+	width: 200px;
+	height: 80px;
+	font-size: 40px;
+}
+
+#form-submit:hover
+{
+	background-color: #df6d0d;
+}
+
+#name, #email, #website , #timeline, #budget, #services
+{
+	margin-bottom: 10px;
+}
+#contactMe
+{
+	position: relative;
+	height: 125px;
+}
+#back
+{
+	color: white;
+	font-size: 50px;
+	float: left;
+
+	/*position: absolute;
+	top: 100%;
+	*/	
+}
+
+#github
+{
+	color: white;
+	font-size: 50px;
+	margin-top: 30px;
+}
+
+#linkedin
+{
+	color: white;
+	font-size: 50px;
+margin-top: 30px;
+}
+
+#message
+	{
+		width:100%;
+		margin-top: 10px;
+	}
+
+#twitter
+{
+	color: white;
+	font-size: 50px;
+    margin-top: 30px;
+}
+
+.extraAtt
+{
+	margin-left: 20%;
+}
+
+@media(max-width:767px)
+{
+	#message
+	{
+		width:100%;
+		margin-left: 0px;
+	}
+	.form-group
+{
+	margin: 10px;
+}
+	#contactHeader
+	{
+		margin-top: 1%;
+	}
+.extraAtt
+{
+	margin-left: 0%;
+}
+
+}
+

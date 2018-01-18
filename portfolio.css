@@ -1,0 +1,153 @@
+
+#mypfHeader
+{
+    color: orange;
+    margin-top: 75px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.thumbnail
+{
+  margin-left: 30px;
+}
+#mainContainer
+{
+
+}
+body
+{
+
+	background:url(bodybgimg1.jpg);  no-repeat center center fixed #000;
+  font-family: Lato;
+	/*background-color: #121111;*/
+	position: relative;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#projdetail
+{
+	 position: absolute;
+    left:40%;
+    top: 28%;
+    bottom: 0;
+    width: 100%;
+    
+    z-index: -1030;
+   opacity: 0.75;
+
+   box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+height: 440px;
+width: 50%;
+
+}
+
+#projview
+{
+/*   opacity: 0.25;*/
+   
+}
+
+#jobheader
+{
+	font-family: Lato;
+	color: white;
+	margin-left: 20px;
+
+}
+.item
+{
+	color: white;
+}
+
+#textdetails , .more_text, #hidelater
+{
+	margin: 15px 20px 10px 20px;
+	font: lato;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+
+}
+a
+{
+	color: red;
+}
+
+
+
+.row
+{
+  background: transparent;
+  border:none;
+}
+
+
+
+
+
+
+.btn-vertical-slider{ margin-left:35px; cursor:pointer;}
+a {  cursor:pointer;}
+.carousel.vertical .carousel-inner .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+ .carousel.vertical .active {
+  top: 0;
+}
+
+ .carousel.vertical .next {
+  top: 100%;
+}
+
+ .carousel.vertical .prev {
+  top: -100%;
+}
+
+ .carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+ .carousel.vertical .active.left {
+  top: -100%;
+}
+
+ .carousel.vertical .active.right {
+  top: 100%;
+}
+
+ .carousel.vertical .item {
+    left: 0;
+}​
+
+@media only screen and (max-width:768px)
+{
+
+   #projview{
+       display: none;
+   }
+    #projdetail{
+        width:100%;
+        left: 0%;
+    }
+    .thumbnail{
+        margin-left: 2px;
+    }
+    #textdetails , .more_text, #hidelater
+    {
+        margin:0px;
+
+
+    }
+}
